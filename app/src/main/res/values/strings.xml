@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeWorkTwo</string>
+    <string name="us">US Dollar</string>
+    <string name="rus">Доллар США</string>
+    <string name="uz">AQSH dollari</string>
+    <string name="rate">10702.31</string>
+    <string name="date">20.10.2021</string>
+</resources>
