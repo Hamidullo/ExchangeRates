@@ -64,7 +64,7 @@ class DataAdapter(var listData: List<Data>, var context: Context):
                 val usdTextView = view.findViewById<TextView>(R.id.usdBottom)
                 val dateTextView = view.findViewById<TextView>(R.id.dateBottom)
 
-                rateTextView.text = listData[pos].rate
+                rateTextView.text = "${listData[pos].rate} so'm"
                 if (listData[pos].diff.startsWith("-")){
                     diffImageView.setImageDrawable(context.getDrawable(R.drawable.decline))
                     diffTextView.text = listData[pos].diff
